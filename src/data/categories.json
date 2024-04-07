@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Smartphones",
+      "imgsrc": "/assets/product1.jpg", 
+      "products": [
+        {
+          "id": 1,
+          "name": "iPhone 14",
+          "price": 999.99,
+          "description": "Latest iPhone model",
+          "brand": "Apple"
+        },
+        {
+          "id": 2,
+          "name": "Samsung Galaxy S21",
+          "price": 899.99,
+          "description": "Flagship Android smartphone",
+          "brand": "Samsung"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Laptops",
+      "imgsrc": "/assets/product2.jpg",  
+      "products": [
+        {
+          "id": 201,
+          "name": "MacBook Pro",
+          "price": 1499.99,
+          "description": "Powerful laptop by Apple",
+          "brand": "Apple"
+        },
+        {
+          "id": 202,
+          "name": "Dell XPS 15",
+          "price": 1299.99,
+          "description": "High-performance Windows laptop",
+          "brand": "Dell"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "CV",
+      "imgsrc": "/assets/product3.jpg",
+      "products": [
+        {
+          "id": 301,
+          "name": "Product 3",
+          "price": 999.99,
+          "description": "Description of Product 3",
+          "brand": "Brand 3"
+        },
+        {
+          "id": 302,
+          "name": "Product 4",
+          "price": 899.99,
+          "description": "Description of Product 4",
+          "brand": "Brand 4"
+        }
+      ]
+    }
+  ]
+}
