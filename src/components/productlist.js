@@ -33,13 +33,13 @@ const ProductList = () => {
                       <img src={category.imgsrc} alt={category.name} />
                     </div>
                   </div>
-                  <div className="mt-4 flex justify-between">
+                  <div className="mt-4">
                     <div>
-                      <h3 className="text-sm text-gray-700">
-                        <span aria-hidden="true" className="absolute inset-0" />
+                      {/* <h1 className="text-xl text-gray-700 pb-2">
                         {category.name}
-                      </h3>
-                      <p>bbb</p>
+                      </h1> */}
+                      <p className="text-xl text-center pb-1">{category.commentstatus}</p>
+                      <p className="text-center text-green-800 font-bold">{category.offer}</p>
                     </div>
                   </div>
                 </Link>
@@ -47,18 +47,6 @@ const ProductList = () => {
             ))}
           </div>
         </div>
-      </div>
-      <div>
-        <h2>Categories</h2>
-        <ul>
-          {categories.map((category) => (
-            <li key={category.id}>
-              <Link to={`/product/${category.id}`}>
-                <h3>{category.name}</h3>
-              </Link>
-            </li>
-          ))}
-        </ul>
       </div>
     </>
   );

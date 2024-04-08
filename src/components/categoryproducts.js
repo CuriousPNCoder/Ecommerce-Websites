@@ -35,15 +35,46 @@ const CategoryProducts = () => {
 
   return (
     <div>
-      <h2>{category ? category.name : "Category not found"}</h2>
-      <ul>
+      {/* <h2>{category ? category.name : "Category not found"}</h2> */}
+
+      <ul role="list" className="divide-y divide-gray-100  px-10">
         {category &&
           category.products.map((product) => (
-            <li key={product.id}>
-              <div>
-                <h4>{product.name}</h4>
-                <p>Description: {product.description}</p>
-                <p>Price: ${product.price}</p>
+            <li key={product.id} className="flex justify-between gap-x-6 py-5">
+              <div className="flex min-w-0 gap-x-4">
+                <img
+                  className="flex-none  w-48  bg-gray-50"
+                  src={product.productimg}
+                  alt=""
+                />
+                <div className="min-w-0 flex-auto">
+                  <p className="font-semibold leading-6 text-2xl text-gray-900 pb-4">
+                    {product.name}
+                  </p>
+                  <p className="mt-1 truncate text-sm leading-5 text-gray-500 pb-1">
+                    {product.ram}
+                  </p>
+                  <p className="mt-1 truncate text-sm leading-5 text-gray-500 pb-1">
+                    {product.productinch}
+                  </p>
+                  <p className="mt-1 truncate text-sm leading-5 text-gray-500 pb-1">
+                    {product.productcamera}
+                  </p>
+                  <p className="mt-1 truncate text-sm leading-5 text-gray-500 pb-1">
+                    {product.battery}
+                  </p>
+                  <p className="mt-1 truncate text-sm leading-5 text-gray-500 pb-1">
+                    {product.processor}
+                  </p>
+                  <p className="mt-1 truncate text-sm leading-5 text-gray-500 pb-1">
+                    {product.warranty}
+                  </p>
+                </div>
+              </div>
+              <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
+                <p className="mt-1 truncate text-2xl leading-5 font-bold text-black ">
+                  {product.price}
+                </p>
               </div>
             </li>
           ))}
