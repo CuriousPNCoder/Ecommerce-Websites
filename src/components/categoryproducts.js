@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../actions/cartaction";
+import Toast from "../components/styles/toast";
 
 const CategoryProducts = () => {
   const { categoryId } = useParams();
   const [category, setCategory] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [showToast, setShowToast] = useState(false); // State to control toast visibility
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const fetchCategory = async () => {
@@ -25,6 +30,13 @@ const CategoryProducts = () => {
     fetchCategory();
   }, [categoryId]);
 
+  const handleAddToCart = (product) => {
+    dispatch(addToCart(product));
+    console.log("Product added to cart:", product);
+    setShowToast(true); // Show the toast when product is added to cart
+    setTimeout(() => setShowToast(false), 3000); // Hide the toast after 3 seconds
+  };
+
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -36,6 +48,7 @@ const CategoryProducts = () => {
   return (
     <div>
       {/* <h2>{category ? category.name : "Category not found"}</h2> */}
+      {showToast && <Toast message="Product added to cart" />}
 
       <ul role="list" className="divide-y divide-gray-100  px-10">
         {category &&
@@ -73,7 +86,8 @@ const CategoryProducts = () => {
                     <div className="flex">
                       <button
                         type="button"
-                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        class="text-white  bg-gray-300  hover:bg-yellow-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2"
+                        onClick={() => handleAddToCart(product)}>
                         <svg
                           class="w-3.5 h-3.5 me-2"
                           aria-hidden="true"
@@ -88,7 +102,7 @@ const CategoryProducts = () => {
                     <div className="flex">
                       <button
                         type="button"
-                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        class="text-white bg-green-600 hover:bg-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2">
                         <svg
                           class="w-3.5 h-3.5 me-2"
                           aria-hidden="true"

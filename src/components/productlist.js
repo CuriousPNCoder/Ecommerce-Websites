@@ -35,9 +35,6 @@ const ProductList = () => {
                   </div>
                   <div className="mt-4">
                     <div>
-                      {/* <h1 className="text-xl text-gray-700 pb-2">
-                        {category.name}
-                      </h1> */}
                       <p className="text-xl text-center pb-1">{category.commentstatus}</p>
                       <p className="text-center text-green-800 font-bold">{category.offer}</p>
                     </div>
