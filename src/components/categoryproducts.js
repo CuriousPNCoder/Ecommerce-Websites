@@ -4,13 +4,15 @@ import { useParams } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../actions/cartaction";
 import Toast from "../components/styles/toast";
+import { Link } from "react-router-dom";
+
 
 const CategoryProducts = () => {
   const { categoryId } = useParams();
   const [category, setCategory] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [showToast, setShowToast] = useState(false); // State to control toast visibility
+  const [showToast, setShowToast] = useState(false); 
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -33,8 +35,8 @@ const CategoryProducts = () => {
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
     console.log("Product added to cart:", product);
-    setShowToast(true); // Show the toast when product is added to cart
-    setTimeout(() => setShowToast(false), 3000); // Hide the toast after 3 seconds
+    setShowToast(true); 
+    setTimeout(() => setShowToast(false), 3000);
   };
 
   if (loading) {
@@ -111,7 +113,7 @@ const CategoryProducts = () => {
                           viewBox="0 0 18 21">
                           <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
                         </svg>
-                        Buy now
+                        <Link to="/buynow">Buy now</Link>
                       </button>
                     </div>
                   </div>

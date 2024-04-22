@@ -16,123 +16,58 @@
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Samsung/product1.jpg",
            "price": "12,700"
         },
         {
          "id": 2,
-           "name": "Samsung Galaxy S21",
+           "name": "Samsung Galaxy S24",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Samsung/product2.jpg",
            "price": "12,700"
 
         },
         {
          "id": 3,
-           "name": "Samsung Galaxy S21",
+           "name": "Samsung Galaxy Z Fold5",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Samsung/product3.jpg",
            "price": "12,700"
 
         },
         {
          "id": 4,
-           "name": "Samsung Galaxy S21",
+           "name": "Samsung Galaxy A25",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Samsung/product4.jpg",
            "price": "12,700"
 
         },
           {
          "id": 5,
-           "name": "Samsung Galaxy S21",
+           "name": "Samsung Galaxy S23 FE",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
-           "price": "12,700"
-
-        },
-          {
-         "id": 6,
-           "name": "Samsung Galaxy S21",
-          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
-          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
-          "productcamera": "50MP + 2MP | 8MP Font Camera",
-          "battery": "5000 mAh Battery",
-          "processor": "Dimensity 6100+Processor",
-          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
-           "price": "12,700"
-
-        },
-          {
-         "id": 7,
-           "name": "Samsung Galaxy S21",
-          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
-          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
-          "productcamera": "50MP + 2MP | 8MP Font Camera",
-          "battery": "5000 mAh Battery",
-          "processor": "Dimensity 6100+Processor",
-          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
-           "price": "12,700"
-
-        },
-          {
-         "id": 8,
-           "name": "Samsung Galaxy S21",
-          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
-          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
-          "productcamera": "50MP + 2MP | 8MP Font Camera",
-          "battery": "5000 mAh Battery",
-          "processor": "Dimensity 6100+Processor",
-          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
-           "price": "12,700"
-
-        },
-          {
-         "id": 9,
-           "name": "Samsung Galaxy S21",
-          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
-          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
-          "productcamera": "50MP + 2MP | 8MP Font Camera",
-          "battery": "5000 mAh Battery",
-          "processor": "Dimensity 6100+Processor",
-          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
-           "price": "12,700"
-
-        },
-          {
-         "id": 10,
-           "name": "Samsung Galaxy S21",
-          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
-          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
-          "productcamera": "50MP + 2MP | 8MP Font Camera",
-          "battery": "5000 mAh Battery",
-          "processor": "Dimensity 6100+Processor",
-          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Samsung/product5.jpg",
            "price": "12,700"
 
         }
@@ -147,40 +82,40 @@
       "products": [
           {
          "id": 1,
-            "name": "Vivo",
+            "name": "Vivo V30",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/vivo/product1.jpg",
            "price": "12,700"
 
         },
            {
          "id": 2,
-            "name": "Vivo",
+            "name": "Vivo X100",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/vivo/product2.jpg",
            "price": "12,700"
 
         },
            {
          "id": 3,
-           "name": "Vivo",
+           "name": "Vivo V20",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/vivo/product3.jpg",
            "price": "12,700"
 
         }
@@ -195,40 +130,40 @@
       "products": [
          {
          "id": 1,
-           "name": "Oppo",
+           "name": "Oppo Reno8 5G",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Oppo/product1.jpg",
            "price": "12,700"
 
         },
            {
          "id": 2,
-            "name": "Oppo",
+            "name": "Oppo A78",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Oppo/product2.jpg",
            "price": "12,700"
 
         },
            {
          "id": 3,
-            "name": "Oppo",
+            "name": "Oppo A16",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Oppo/product3.jpg",
            "price": "12,700"
         }
       ]
@@ -242,39 +177,39 @@
       "products": [
         {
          "id": 1,
-           "name": "Realme",
+           "name": "Realme 11",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Realme/product1.jpg",
            "price": "12,700"
         },
            {
          "id": 2,
-          "name": "Realme",
+          "name": "Realme Narzo 30",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Realme/product2.jpg",
            "price": "12,700"
 
         },
            {
          "id": 3,
-          "name": "Realme",
+          "name": "Realme C53",
           "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
           "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
           "productcamera": "50MP + 2MP | 8MP Font Camera",
           "battery": "5000 mAh Battery",
           "processor": "Dimensity 6100+Processor",
           "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
-           "productimg": "../assets/product1.jpg",
+           "productimg": "../assets/Realme/product3.jpg",
            "price": "12,700"
 
         }
