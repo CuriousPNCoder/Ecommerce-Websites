@@ -52,13 +52,15 @@ const CategoryProducts = () => {
       {/* <h2>{category ? category.name : "Category not found"}</h2> */}
       {showToast && <Toast message="Product added to cart" />}
 
-      <ul role="list" className="divide-y divide-gray-100  px-10">
+      <ul role="list" className="divide-y divide-gray-100 px-4 sm:px-6 lg:px-8">
         {category &&
           category.products.map((product) => (
-            <li key={product.id} className="flex justify-between gap-x-6 py-5">
-              <div className="flex min-w-0 gap-x-4">
+            <li
+              key={product.id}
+              className="flex flex-col sm:flex-row justify-between gap-y-4 sm:gap-x-6 py-5">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <img
-                  className="flex-none  w-48  bg-gray-50"
+                  className="w-full sm:w-48 h-auto bg-gray-50"
                   src={product.productimg}
                   alt=""
                 />
