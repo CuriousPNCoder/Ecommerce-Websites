@@ -19,7 +19,7 @@ const CategoryProducts = () => {
     const fetchCategory = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3002/categories/${categoryId}`
+          `https://json-data-7.onrender.com/categories/${categoryId}`
         );
         setCategory(response.data);
       } catch (error) {

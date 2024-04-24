@@ -8,7 +8,9 @@ const ProductList = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get("http://localhost:3002/categories");
+        const response = await axios.get(
+          "https://json-data-7.onrender.com/categories"
+        );
         setCategories(response.data);
       } catch (error) {
         console.error("Error fetching categories:", error);
