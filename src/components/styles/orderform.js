@@ -12,7 +12,7 @@ const OrderForm = () => {
                   1. Delivery address
                 </dt>
                 <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                  North 24 Parganas, West Bengal 
+                  North 24 Parganas, West Bengal
                 </dd>
               </div>
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -32,24 +32,22 @@ const OrderForm = () => {
                     class="flex p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-200 dark:text-red-400"
                     role="alert">
                     <svg
-                      class="flex-shrink-0 inline w-4 h-4 me-3 mt-[2px]"
+                      className="flex-shrink-0 inline w-4 h-4 me-3 mt-[2px]"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
                       viewBox="0 0 20 20">
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
                     </svg>
-                    <span class="sr-only">Danger</span>
+                    <span className="sr-only">Danger</span>
                     <div>
-                      <span class="font-medium">
-                      Requrired at time of delivery
+                      <span className="font-medium">
+                        Requrired at time of delivery
                       </span>
-                      <ul class="mt-1.5 list-disc list-inside">
+                      <ul className="mt-1.5 list-disc list-inside">
                         <li>Signature requrired at time of delivery</li>
                         <li>Carefully check the product</li>
-                        <li>
-                        Right now, cash on in delivery just available
-                        </li>
+                        <li>Right now, cash on in delivery just available</li>
                       </ul>
                     </div>
                   </div>
@@ -108,7 +106,7 @@ const OrderForm = () => {
             <div className="justify-center flex items-center py-4">
               <button
                 type="button"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-36 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-36 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                 Order Now
               </button>
             </div>
