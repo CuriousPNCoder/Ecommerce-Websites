@@ -214,6 +214,100 @@
 
         }
       ]
+    },
+     {
+      "id": 5,
+      "name": "Google Pixel",
+      "imgsrc": "assets/product4.jpg",
+      "commentstatus": "Best Google Pixel Phone",
+      "offer": "Upto 10% off",
+      "products": [
+        {
+         "id": 1,
+           "name": "Google Pixel 7a",
+          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
+          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
+          "productcamera": "50MP + 2MP | 8MP Font Camera",
+          "battery": "5000 mAh Battery",
+          "processor": "Dimensity 6100+Processor",
+          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
+           "productimg": "../assets/Realme/product1.jpg",
+           "price": "37,900"
+        },
+           {
+         "id": 2,
+          "name": "Google Pixel 8",
+          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
+          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
+          "productcamera": "50MP + 2MP | 8MP Font Camera",
+          "battery": "5000 mAh Battery",
+          "processor": "Dimensity 6100+Processor",
+          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
+           "productimg": "../assets/Realme/product2.jpg",
+           "price": "63,700"
+
+        },
+           {
+         "id": 3,
+          "name": "Google Pixel 7 pro",
+          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
+          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
+          "productcamera": "50MP + 2MP | 8MP Font Camera",
+          "battery": "5000 mAh Battery",
+          "processor": "Dimensity 6100+Processor",
+          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
+           "productimg": "../assets/Realme/product3.jpg",
+           "price": "40,700"
+
+        }
+      ]
+    },
+      {
+      "id": 5,
+      "name": "Poco",
+      "imgsrc": "assets/product4.jpg",
+      "commentstatus": "Best Poco Phone",
+      "offer": "Upto 10% off",
+      "products": [
+        {
+         "id": 1,
+           "name": "Poco c51",
+          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
+          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
+          "productcamera": "50MP + 2MP | 8MP Font Camera",
+          "battery": "5000 mAh Battery",
+          "processor": "Dimensity 6100+Processor",
+          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
+           "productimg": "../assets/Realme/product1.jpg",
+           "price": "4,900"
+        },
+           {
+         "id": 2,
+          "name": "Poco M6 pro 5g",
+          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
+          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
+          "productcamera": "50MP + 2MP | 8MP Font Camera",
+          "battery": "5000 mAh Battery",
+          "processor": "Dimensity 6100+Processor",
+          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
+           "productimg": "../assets/Realme/product2.jpg",
+           "price": "10,700"
+
+        },
+           {
+         "id": 3,
+          "name": "Google Pixel 7 pro",
+          "ram": "4 GB RAM | 128 GB ROM | Expandable Upto 2TB",
+          "productinch": "17.07 cm(6.72 inch) Full HD+ Display",
+          "productcamera": "50MP + 2MP | 8MP Font Camera",
+          "battery": "5000 mAh Battery",
+          "processor": "Dimensity 6100+Processor",
+          "warranty": "1 Year Manufacturer warranty for device and 6 months manufacture warranty for inbox accesories",
+           "productimg": "../assets/Realme/product3.jpg",
+           "price": "40,700"
+
+        }
+      ]
     }
   ]
 }
