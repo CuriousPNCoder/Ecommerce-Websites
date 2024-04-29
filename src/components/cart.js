@@ -5,32 +5,28 @@ import { removeFromCart, addToCart} from "../actions/cartaction";
 const Cart = () => {
   const [showPriceDiv, setShowPriceDiv] = useState(false);
   const cartItems = useSelector((state) => state.cart.items);
-  const dispatch = useDispatch(); // Get dispatch function from Redux
+  const dispatch = useDispatch(); 
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop =
         document.documentElement.scrollTop || document.body.scrollTop;
-      setShowPriceDiv(scrollTop > 0); // Set showPriceDiv to true if scrollTop > 0
+      setShowPriceDiv(scrollTop > 0); 
     };
 
-    // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Remove scroll event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  // Function to handle removing a product from cart
   const handleRemoveProduct = (productId) => {
-    dispatch(removeFromCart(productId)); // Dispatch removeFromCart action with productId
+    dispatch(removeFromCart(productId));
   };
 
-  // Function to handle adding a product to cart
   const handleAddProduct = (product) => {
-    dispatch(addToCart(product)); // Dispatch addToCart action with product
+    dispatch(addToCart(product)); 
   };
 
   return (
@@ -48,12 +44,11 @@ const Cart = () => {
                 <p className="font-semibold leading-6 text-2xl text-gray-900 pb-4">
                   {item.name}
                 </p>
-                {/* Other product details */}
                 <div className="flex items-center pt-4">
                   <button
                     type="button"
                     className="text-gray-900 font-medium text-sm text-center inline-flex items-center border border-spacing-4 border-gray-500 px-3"
-                    onClick={() => handleAddProduct(item)} // Call handleAddProduct with the product
+                    onClick={() => handleAddProduct(item)}
                   >
                     +
                   </button>
@@ -70,7 +65,6 @@ const Cart = () => {
                 </div>
               </div>
             </div>
-            {/* Price details */}
           </li>
         ))}
       </ul>

@@ -13,6 +13,7 @@ import Cart from "./components/cart";
 import { Provider } from "react-redux";
 import store from "./store";
 import OrderForm from "./components/styles/orderform";
+import Footer from "./components/styles/footer";
 
 const App = () => {
   return (
@@ -25,8 +26,7 @@ const App = () => {
 };
 
 const AppContent = () => {
-  const location = useLocation(); // Get the current route location
-  // Check if the current route is the order form page
+  const location = useLocation();
   const isOrderFormPage = location.pathname === "/buynow";
   return (
     <>
@@ -42,6 +42,7 @@ const AppContent = () => {
           </Routes>
         </main>
       </div>
+      <Footer />
     </>
   );
 };

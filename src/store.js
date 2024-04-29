@@ -4,7 +4,6 @@ import rootReducer from "./cartreducer";
 const store = configureStore({
   reducer: {
     cart: rootReducer,
-    // other reducers...
   },
 });
 

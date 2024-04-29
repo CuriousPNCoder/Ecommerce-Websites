@@ -25,7 +25,6 @@ const cartReducer = (state = initialState, action) => {
       const newItem = action.payload;
       const existingItem = state.items.find((item) => item.id === newItem.id);
       if (existingItem) {
-        // If the item already exists in the cart, update its quantity
         const updatedItems = state.items.map((item) => {
           if (item.id === existingItem.id) {
             return {
@@ -41,7 +40,6 @@ const cartReducer = (state = initialState, action) => {
           items: updatedItems,
         };
       } else {
-        // If the item doesn't exist in the cart, add it
         const updatedItems = [...state.items, newItem];
         localStorage.setItem("cartItems", JSON.stringify(updatedItems));
         return {

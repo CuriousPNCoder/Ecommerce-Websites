@@ -90,10 +90,10 @@ const CategoryProducts = () => {
                     <div className="flex">
                       <button
                         type="button"
-                        class="text-white bg-yellow-600  hover:bg-yellow-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2"
+                        className="text-white bg-yellow-600  hover:bg-yellow-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2"
                         onClick={() => handleAddToCart(product)}>
                         <svg
-                          class="w-3.5 h-3.5 me-2"
+                          className="w-3.5 h-3.5 me-2"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
@@ -106,9 +106,9 @@ const CategoryProducts = () => {
                     <div className="flex">
                       <button
                         type="button"
-                        class="text-white bg-green-600 hover:bg-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2">
+                        className="text-white bg-green-600 hover:bg-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2">
                         <svg
-                          class="w-3.5 h-3.5 me-2"
+                          className="w-3.5 h-3.5 me-2"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
