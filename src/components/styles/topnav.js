@@ -25,9 +25,18 @@ const Topnav = () => {
             <div className="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-4">
               <NavLink
                 to="/"
-                className="text-black px-3 py-2 rounded-md text-sm font-medium"
-                >
+                className="text-black px-3 py-2 rounded-md text-sm font-medium">
                 Home
+              </NavLink>
+              <NavLink
+                to="/"
+                className="text-black px-3 py-2 rounded-md text-sm font-medium">
+                Notification & Help Center
+              </NavLink>
+              <NavLink
+                to="/"
+                className="text-black px-3 py-2 rounded-md text-sm font-medium">
+                Blogs
               </NavLink>
               <NavLink to="/cart">
                 <button type="button">
@@ -100,9 +109,20 @@ const Topnav = () => {
               <NavLink
                 to="/"
                 className="block px-3 py-2 rounded-md text-base font-medium text-black"
-             
                 onClick={() => setIsMenuOpen(false)}>
                 Home
+              </NavLink>
+              <NavLink
+                to="/"
+                className="block px-3 py-2 rounded-md text-base font-medium text-black"
+                onClick={() => setIsMenuOpen(false)}>
+               Notificatio & Help Center
+              </NavLink>
+              <NavLink
+                to="blog"
+                className="block px-3 py-2 rounded-md text-base font-medium text-black"
+                onClick={() => setIsMenuOpen(false)}>
+                Blogs
               </NavLink>
               <NavLink to="/cart">
                 <button type="button">

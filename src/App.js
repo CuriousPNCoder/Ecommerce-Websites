@@ -14,6 +14,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import OrderForm from "./components/styles/orderform";
 import Footer from "./components/styles/footer";
+import Blog from "./components/blog";
 
 const App = () => {
   return (
@@ -27,11 +28,11 @@ const App = () => {
 
 const AppContent = () => {
   const location = useLocation();
-  const isOrderFormPage = location.pathname === "/buynow";
+  const isHomePage = location.pathname === "/";
   return (
     <>
       <Topnav />
-      {!isOrderFormPage && <HeroSection />}
+      {isHomePage && <HeroSection />}
       <div>
         <main>
           <Routes>
@@ -39,6 +40,7 @@ const AppContent = () => {
             <Route path="/product/:categoryId" element={<CategoryProducts />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/buynow" element={<OrderForm />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </main>
       </div>
